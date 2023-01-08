@@ -120,7 +120,7 @@ const Template = observer(({lang}) => {
                   <button onClick={handleClickEn}>Eng</button>
                   <div className='search-bar'>
                     <img src={Search} alt='' className='search-img'/>
-                    <input className='search-input' placeholder={lang.lang == 'Ru' ? 'Поиск' : 'Search'}>
+                    <input className='search-input' placeholder={lang.lang === 'Ru' ? 'Поиск' : 'Search'}>
                     </input>
                   </div>
                   <div className='user-container'>
