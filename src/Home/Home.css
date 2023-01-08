@@ -1,0 +1,32 @@
+.home-page .container{
+  width: auto;
+  display: block;
+}
+
+
+.article{
+  margin-top: 10vh;
+}
+
+
+.article-title{
+  font-family: 'B612', sans-serif;
+  font-size: 30px;
+}
+
+
+.article-cover{
+  width: fit-content;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+
+
+.cover-img{
+  width: 50vw;
+  border-radius: 15px;
+}

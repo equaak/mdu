@@ -1,0 +1,35 @@
+.about-content .container .logo-img{
+  width: 40vw;
+}
+
+.about-content .container{
+  width: 60vw;
+  padding: 50px auto;
+}
+
+.logo-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nis-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.nis-img{
+  width: 40vw;
+}
+
+.about-container{
+  margin-top: 10vh;
+}
+
+.about-text{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
