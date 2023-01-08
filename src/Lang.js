@@ -8,13 +8,13 @@ class Lang{
   }
 
   toggleRu(){
-    if(this.lang == 'En'){
+    if(this.lang === 'En'){
       this.lang = 'Ru'
     }
   }
 
   toggleEn(){
-    if(this.lang == 'Ru'){
+    if(this.lang === 'Ru'){
       this.lang = 'En'
     }
   }

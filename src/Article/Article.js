@@ -190,20 +190,20 @@ const Article = observer(({lang}) => {
   return(
     <main className='article-page'>
       <div className='container'>
-          {name.name == 'Desertification of the Earth' ?
-            lang.lang == 'Ru' ? <p className='article-title'>Опустынивание Земли</p> : <p className='article-title'>Desertification of the Earth</p> : ''
+          {name.name === 'Desertification of the Earth' ?
+            lang.lang === 'Ru' ? <p className='article-title'>Опустынивание Земли</p> : <p className='article-title'>Desertification of the Earth</p> : ''
           }
-          {name.name == 'Ice Caps' ?
-            lang.lang == 'Ru' ? <p className='article-title'>Ледняки</p> : <p className='article-title'>Ice Caps</p> : ''
+          {name.name === 'Ice Caps' ?
+            lang.lang === 'Ru' ? <p className='article-title'>Ледняки</p> : <p className='article-title'>Ice Caps</p> : ''
           }
-          {name.name == 'Global Warming Causes' ?
-            lang.lang == 'Ru' ? <p className='article-title'>Последствия глобального потепления</p> : <p className='article-title'>Global Warming Causes</p> : ''
+          {name.name === 'Global Warming Causes' ?
+            lang.lang === 'Ru' ? <p className='article-title'>Последствия глобального потепления</p> : <p className='article-title'>Global Warming Causes</p> : ''
           }
 
 
-          {name.name == 'Desertification of the Earth' ? lang.lang == 'Ru' ? <DeRu /> : <DeEng /> : ''}
-          {name.name == 'Ice Caps' ? lang.lang == 'Ru' ? <IceRu /> : <IceEng /> : ''}
-          {name.name == 'Global Warming Causes' ? lang.lang == 'Ru' ? <CausesRu /> : <CausesEng /> : ''}
+          {name.name === 'Desertification of the Earth' ? lang.lang === 'Ru' ? <DeRu /> : <DeEng /> : ''}
+          {name.name === 'Ice Caps' ? lang.lang === 'Ru' ? <IceRu /> : <IceEng /> : ''}
+          {name.name === 'Global Warming Causes' ? lang.lang === 'Ru' ? <CausesRu /> : <CausesEng /> : ''}
       </div>
     </main>
   )

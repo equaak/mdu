@@ -33,7 +33,7 @@ const Template = observer(({lang}) => {
                   <img src={Logo} className='logo-image' alt=""></img>
                 </Link>
               </div>
-              {lang.lang == 'Ru' ?
+              {lang.lang === 'Ru' ?
                 <p className='pages-title'>Страницы
                 </p> :
                 <p className='pages-title'> Pages
@@ -47,8 +47,8 @@ const Template = observer(({lang}) => {
                 <div className='pages'>
                   <Link to='main'>
                     <div className='menu-part'>
-                      <img src={Menu} className='menu-img' />
-                      {lang.lang == 'Ru' ? <p className='menu-label'>
+                      <img src={Menu} className='menu-img' alt=""/>
+                      {lang.lang === 'Ru' ? <p className='menu-label'>
                         Лента новостей
                       </p> : <p className='menu-label'>
                         News feed
@@ -57,8 +57,8 @@ const Template = observer(({lang}) => {
                   </Link>
                   <Link to='main'>
                     <div className='menu-part'>
-                      <img src='' className='menu-img' />
-                      {lang.lang == 'Ru' ? <p className='menu-label'>
+                      <img src='' className='menu-img' alt=""/>
+                      {lang.lang === 'Ru' ? <p className='menu-label'>
                         Исследования
                       </p>: <p className='menu-label'>
                         Researcher's
@@ -67,8 +67,8 @@ const Template = observer(({lang}) => {
                   </Link>
                   <Link>
                     <div className='menu-part'>
-                      <img src='' className='menu-img' />
-                      {lang.lang == 'Ru' ? <p className='menu-label'>
+                      <img src='' className='menu-img' alt=""/>
+                      {lang.lang === 'Ru' ? <p className='menu-label'>
                         Сообщество
                       </p> : <p className='menu-label'>
                         Community
@@ -77,7 +77,7 @@ const Template = observer(({lang}) => {
                   </Link>
                 </div>
               </div>
-              {lang.lang == 'Ru' ? <p className='pages-title'>
+              {lang.lang === 'Ru' ? <p className='pages-title'>
                 Благодарности
               </p> : <p className='pages-title'>
                 Credits
@@ -86,7 +86,7 @@ const Template = observer(({lang}) => {
                 <Link to='/about'>
                   <div className='credit-part'>
                     <div className='grey-circle' />
-                    {lang.lang == 'Ru' ? <p className='menu-label'>
+                    {lang.lang === 'Ru' ? <p className='menu-label'>
                       О Проекте
                     </p> : <p className='menu-label'>
                       About Project
@@ -96,7 +96,7 @@ const Template = observer(({lang}) => {
                 <Link to='/about'>
                   <div className='credit-part'>
                     <div className='grey-circle' />
-                    {lang.lang == 'Ru' ? <p className='menu-label'>
+                    {lang.lang === 'Ru' ? <p className='menu-label'>
                       Авторы
                     </p> : <p className='menu-label'>
                       Authors
@@ -147,7 +147,7 @@ const Template = observer(({lang}) => {
             <p className='quote-author'>
               Faust
             </p>
-            {lang.lang == 'Ru' ? <p className='authors'>
+            {lang.lang === 'Ru' ? <p className='authors'>
               Сайт разработан Муратбеком Диас,
               Дизайн создан Джек Джейсоном
             </p> : <p className='authors'>

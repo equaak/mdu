@@ -10,7 +10,7 @@ const Home = observer(({lang}) => {
       <div className='container'>
         <div className='article'>
           <Link to='/articles/Desertification of the Earth'>
-            {lang.lang == 'Ru' ? <p className='article-title'>
+            {lang.lang === 'Ru' ? <p className='article-title'>
               Опустынивание Земли
             </p> : <p className='article-title'>
               Desertification of the Earth
@@ -23,7 +23,7 @@ const Home = observer(({lang}) => {
         </div>
         <div className='article'>
           <Link to='/articles/Ice Caps'>
-            {lang.lang == 'Ru' ? <p className='article-title'>
+            {lang.lang === 'Ru' ? <p className='article-title'>
               Лядники
             </p> : <p className='article-title'>
               Ice Caps
@@ -36,7 +36,7 @@ const Home = observer(({lang}) => {
         </div>
         <div className='article'>
           <Link to='/articles/Global Warming Causes'>
-            {lang.lang == 'Ru' ? <p className='article-title'>
+            {lang.lang === 'Ru' ? <p className='article-title'>
               Последствия глобального потепления
             </p> : <p className='article-title'>
               Global Warming Causes
